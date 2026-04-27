@@ -1,4 +1,5 @@
 import requests
+import json
 
 json_response = []
 
@@ -18,6 +19,6 @@ data = response.json()
 
 json_response.append(data)
 
-print(json_response)
+print(json.dumps(json_response, indent = 3))
 
 #print(response.json())
