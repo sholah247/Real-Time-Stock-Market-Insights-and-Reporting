@@ -2,7 +2,7 @@ import requests
 from config import logger, headers, url
 
 def connect_to_api():
-	stocks = ['TSLA', 'MSFT', 'GOOGL']
+	stocks = ['TSLA', 'MSFT', 'GOOGL' , 'AMZN', 'META']
 	json_response = []
 	for stock in range(0, len(stocks)):
 
